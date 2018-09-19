@@ -13,8 +13,8 @@ import com.walmart.ticket.service.TicketService;
 import com.walmart.ticket.service.impl.TicketServiceImpl;
 
 public class Start {
-	public final static String OPTIONS = "\nOptions: \n1. Start/Reset \n2. Available Seats "
-			+ "\n3. Request for Hold \n4. Reserve/commit \n5. Exit.\n";
+	public final static String OPTIONS = "\nOptions: \n1. Start \n2. Available Seats "
+			+ "\n3. Request for Hold \n4. Request For Reservation \n5. Exit.\n";
 	private int rows;
 	private int seatsPerRow;
 	private Theatre theatre;
