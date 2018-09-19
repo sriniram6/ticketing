@@ -2,10 +2,10 @@
 Ticketing Service Interface
 
 # Maven Commands:
-1.Go to the repo directory under which the pom.xml is present
-2. mvn clean package assembly:assembly OR mvn clean package assembly:assembly -DskipTests (To skip the test cases) // This will generate jar(*-jar-with-dependencies.jar) file under target folder.
-3. java -jar target\TicketService-0.0.1-jar-with-dependencies.jar com.walmart.ticket.Start // Program will start. Then follow the command prompt.
-4. As an enhancement, the start program can be replaced by some user interface  we can create REST API around the current implementation, so ensured that the other classes does not depend on the Start method.
+* Go to the repo directory under which the pom.xml is present
+* Type mvn clean package assembly:assembly OR mvn clean package assembly:assembly -DskipTests (To skip the test cases) // This will generate jar(*-jar-with-dependencies.jar) file under target folder.
+* java -jar target\TicketService-0.0.1-jar-with-dependencies.jar com.walmart.ticket.Start // Program will start. Then follow the command prompt.
+* As an enhancement, the start program can be replaced by some user interface  we can create REST API around the current implementation, so ensured that the other classes does not depend on the Start method.
 
 
 # Implementation:
